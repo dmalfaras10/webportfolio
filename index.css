@@ -241,6 +241,8 @@ body{
 #landing #view-my-work {
   display: inline-flex;
   align-items: center;
+  margin-y: 0.5rem;
+  margin-right: 0.5rem;
   padding: 13px 20px;
   background: var(--primary);
   color: #FFFFFF;
@@ -267,6 +269,7 @@ body{
 #landing #contact-me {
   display: inline-flex;
   align-items: center;
+  margin: 0.5rem;
   padding: 13px 20px;
   background: transparent;
   color: var(---text);
@@ -283,6 +286,33 @@ body{
 }
 
 #landing #contact-me:hover {
+  background: var(--card);
+  color: var(--primary-dark);
+  border-color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(16, 185, 129, 0.22);
+}
+
+#landing #download-cv {
+  display: inline-flex;
+  align-items: center;
+  margin: 0.5rem;
+  padding: 13px 20px;
+  background: transparent;
+  color: var(---text);
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition:
+    background 0.25s ease,
+    border-color 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+#landing #download-cv:hover {
   background: var(--card);
   color: var(--primary-dark);
   border-color: var(--primary);
@@ -545,11 +575,11 @@ body{
 /*Project End*/
 
 /*Experience Start*/
-#experice h5 {
+#experience h2 {
   color: var(--text);
   font-size: 1.1rem;
   line-height: 1.9;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 #experience p {
@@ -685,7 +715,7 @@ body{
   line-height: 1.6;
 }
 
-#footer h5 {
+#footer h2 {
   margin-bottom: 20px;
   color: white;
   font-size: 1.1rem;

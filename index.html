@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,10 +12,22 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="./images/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
+		<link rel="shortcut icon" href="./images/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href=".i/mages/apple-touch-icon.png" />
+		<link rel="manifest" href="./images/site.webmanifest" />
+		<!-- Meta tag descriptions -->
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Dan Michael Alfaras Portfolio">
+		<meta property="og:url" content="https://dmalfaras10.github.io/stitchportfolio/">
+		<meta property="og:image" content="https://github.com/dmalfaras10/stitchportfolio/blob/master/favicon.png?raw=true">
+		<meta property="og:description" content="Explore Dan Michael Alfaras' portfolio featuring web projects, technical skills, experience, and modern digital solutions.">
 	</head>
 	<body>
 		<!-- Navbar Start -->
-		<nav class="navbar navbar-expand-lg" id="navbar">
+		<nav class="navbar navbar-expand-lg" id="navbar" aria-label="Main Navigation">
 		  <div class="container">
 		    <!-- Brand -->
 		    <a class="navbar-brand" href="#">
@@ -61,7 +73,7 @@
 		<!-- Navbar End -->
 
 		<!-- Container Start -->
-		<div class="container">
+		<main class="container">
 			<!-- Landing Section Start -->
 			<div class="row text-center text-lg-start" id="landing">
 			  <div class="col-12 col-lg-7 order-2 order-lg-1">
@@ -76,15 +88,17 @@
 			      <div class="hero-buttons mt-3 text-center text-lg-start mt-3">
 			        <a href="#projects" id="view-my-work">View My Work</a>
 			        <a href="#contact" id="contact-me">Contact Me</a>
+			        <a href="Dan_Michael_Alfaras_Resume.pdf" target="_blank" id="download-cv" download>
+			          Download CV
+			        </a>
 			      </div>
 			    </div>
 			  </div>
 			  <div class="col-12 col-lg-5 order-1 order-lg-2">
 			    <div class="hero-image">
 			      <div class="image-decoration"></div>
-			      <img
-			        class="img-fluid" id="img-me" src="https://media.licdn.com/dms/image/v2/D5603AQHMZMhXPIUY9Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1721644283317?e=1792022400&v=beta&t=rzlmprGGvRU8sh7_3QWPzNuDirvtdjeJ6Yze1S70RmU"
-			        alt="Dan Michael Alfaras">
+			      <img class="img-fluid" id="img-me" src="https://media.licdn.com/dms/image/v2/D5603AQHMZMhXPIUY9Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1721644283317?e=1792022400&v=beta&t=rzlmprGGvRU8sh7_3QWPzNuDirvtdjeJ6Yze1S70RmU"
+			        alt="Dan Michael Alfaras" fetchpriority="high">
 			    </div>
 			  </div>
 			</div>
@@ -113,7 +127,7 @@
 			  <div class="col-6 col-lg-3 mb-4">
 			    <div class="skill-card">
 			      <div class="card-body">
-			        <img src="https://cdn.simpleicons.org/html5" alt="HTML5" class="skill-image">
+			        <img src="https://cdn.simpleicons.org/html5" alt="HTML5" class="skill-image" loading="lazy">
 			        <span class="skill-number">01</span>
 			        <h5 class="card-title">HTML5</h5>
 			      </div>
@@ -123,7 +137,7 @@
 			  <div class="col-6 col-lg-3 mb-4">
 			    <div class="skill-card">
 			      <div class="card-body">
-			        <img src="https://cdn.simpleicons.org/css" alt="CSS3"class="skill-image">
+			        <img src="https://cdn.simpleicons.org/css" alt="CSS3"class="skill-image" loading="lazy">
 			        <span class="skill-number">02</span>
 			        <h5 class="card-title">CSS3</h5>
 			      </div>
@@ -133,7 +147,7 @@
 			  <div class="col-6 col-lg-3 mb-4">
 			    <div class="skill-card">
 			      <div class="card-body">
-			        <img src="https://cdn.simpleicons.org/javascript" alt="JavaScript" class="skill-image">
+			        <img src="https://cdn.simpleicons.org/javascript" alt="JavaScript" class="skill-image" loading="lazy">
 			        <span class="skill-number">03</span>
 			        <h5 class="card-title">JavaScript</h5>
 			      </div>
@@ -143,7 +157,7 @@
 			  <div class="col-6 col-lg-3 mb-4">
 			    <div class="skill-card">
 			      <div class="card-body">
-			        <img src="https://cdn.simpleicons.org/bootstrap" alt="Bootstrap 5" class="skill-image">
+			        <img src="https://cdn.simpleicons.org/bootstrap" alt="Bootstrap 5" class="skill-image" loading="lazy">
 			        <span class="skill-number">04</span>
 			        <h5 class="card-title">Bootstrap 5</h5>
 			      </div>
@@ -153,7 +167,7 @@
 			  <div class="col-6 col-lg-3 mb-4">
 			    <div class="skill-card">
 			      <div class="card-body">
-			        <img src="https://cdn.simpleicons.org/php" alt="PHP" class="skill-image">
+			        <img src="https://cdn.simpleicons.org/php" alt="PHP" class="skill-image" loading="lazy">
 			        <span class="skill-number">05</span>
 			        <h5 class="card-title">PHP</h5>
 			      </div>
@@ -163,7 +177,7 @@
 			  <div class="col-6 col-lg-3 mb-4">
 			    <div class="skill-card">
 			      <div class="card-body">
-			        <img src="https://cdn.simpleicons.org/laravel" alt="Laravel" class="skill-image">
+			        <img src="https://cdn.simpleicons.org/laravel" alt="Laravel" class="skill-image" loading="lazy">
 			        <span class="skill-number">06</span>
 			        <h5 class="card-title">Laravel</h5>
 			      </div>
@@ -173,7 +187,7 @@
 			  <div class="col-6 col-lg-3 mb-4">
 			    <div class="skill-card">
 			      <div class="card-body">
-			        <img src="https://cdn.simpleicons.org/mysql" alt="MySQL" class="skill-image">
+			        <img src="https://cdn.simpleicons.org/mysql" alt="MySQL" class="skill-image" loading="lazy">
 			        <span class="skill-number">07</span>
 			        <h5 class="card-title">MySQL</h5>
 			      </div>
@@ -183,7 +197,7 @@
 			  <div class="col-6 col-lg-3 mb-4">
 			    <div class="skill-card">
 			      <div class="card-body">
-			        <img src="https://cdn.simpleicons.org/wordpress" alt="WordPress" class="skill-image">
+			        <img src="https://cdn.simpleicons.org/wordpress" alt="WordPress" class="skill-image" loading="lazy">
 			        <span class="skill-number">08</span>
 			        <h5 class="card-title">WordPress</h5>
 			      </div>
@@ -193,8 +207,7 @@
 			  <div class="col-6 col-lg-3 mb-4">
 			    <div class="skill-card">
 			      <div class="card-body">
-			        <img src="https://cdn.simpleicons.org/googleanalytics" alt="Google Analytics" class="skill-image"
-			        >
+			        <img src="https://cdn.simpleicons.org/googleanalytics" alt="Google Analytics" class="skill-image" loading="lazy">
 			        <span class="skill-number">09</span>
 			        <h5 class="card-title">Google Analytics</h5>
 			      </div>
@@ -204,7 +217,7 @@
 			  <div class="col-6 col-lg-3 mb-4">
 			    <div class="skill-card">
 			      <div class="card-body">
-			        <img src="https://cdn.simpleicons.org/trello" alt="Trello" class="skill-image">
+			        <img src="https://cdn.simpleicons.org/trello" alt="Trello" class="skill-image" loading="lazy">
 			        <span class="skill-number">10</span>
 			        <h5 class="card-title">Trello</h5>
 			      </div>
@@ -214,7 +227,7 @@
 			  <div class="col-6 col-lg-3 mb-4">
 			    <div class="skill-card">
 			      <div class="card-body">
-			        <img src="https://cdn.simpleicons.org/git" alt="Git" class="skill-image">
+			        <img src="https://cdn.simpleicons.org/git" alt="Git" class="skill-image" loading="lazy">
 			        <span class="skill-number">11</span>
 			        <h5 class="card-title">Git</h5>
 			      </div>
@@ -224,7 +237,7 @@
 			  <div class="col-6 col-lg-3 mb-4">
 			    <div class="skill-card">
 			      <div class="card-body">
-			        <img src="https://cdn.simpleicons.org/figma" alt="Figma" class="skill-image">
+			        <img src="https://cdn.simpleicons.org/figma" alt="Figma" class="skill-image" loading="lazy">
 			        <span class="skill-number">12</span>
 			        <h5 class="card-title">Figma</h5>
 			      </div>
@@ -241,11 +254,11 @@
 			  <div class="col-12 col-md-6 col-lg-4 mb-4">
 			    <div class="project-card">
 			      <div class="project-image">
-			        <img src="./images/e-commerce-api.png" class="card-img-top" alt="E-Commerce API Documentation">
+			        <img src="./images/e-commerce-api.png" class="card-img-top" alt="E-Commerce API Documentation" loading="lazy">
 			      </div>
 			      <div class="card-body">
 			        <span class="project-type">API / BACKEND</span>
-			        <h5 class="card-title">E-Commerce API Documentation</h5>
+			        <h2 class="card-title">E-Commerce API Documentation</h2>
 			        <p class="card-text">
 			          Dynamic E-commerce Workflow Management. The system features
 			          dynamic routes for order processing, real-time inventory updates,
@@ -260,11 +273,11 @@
 			  <div class="col-12 col-md-6 col-lg-4 mb-4">
 			    <div class="project-card">
 			      <div class="project-image">
-			        <img src="./images/course-booking-api.png" class="card-img-top" alt="Course Booking API Documentation">
+			        <img src="./images/course-booking-api.png" class="card-img-top" alt="Course Booking API Documentation" loading="lazy">
 			      </div>
 			      <div class="card-body">
 			        <span class="project-type">API / BACKEND</span>
-			        <h5 class="card-title">Course Booking API Documentation</h5>
+			        <h2 class="card-title">Course Booking API Documentation</h2>
 			        <p class="card-text">
 			          RESTful API for managing course enrollments, featuring user
 			          registration, authentication, and retreval of user details. Supports
@@ -278,11 +291,11 @@
 			  <div class="col-12 col-md-6 col-lg-4 mb-4">
 			    <div class="project-card">
 			      <div class="project-image">
-			        <img src="./images/course-booking.png" class="card-img-top" alt="Course Booking App">
+			        <img src="./images/course-booking.png" class="card-img-top" alt="Course Booking App" loading="lazy">
 			      </div>
 			      <div class="card-body">
 			        <span class="project-type">MERN STACK</span>
-			        <h5 class="card-title">Course Booking App</h5>
+			        <h2 class="card-title">Course Booking App</h2>
 			        <p class="card-text">
 			          A MERN-stack course enrollment system featuring user registration,
 			          authentication, and profile management. Authenticated users can
@@ -296,11 +309,11 @@
 			  <div class="col-12 col-md-6 col-lg-4 mb-4">
 			    <div class="project-card">
 			      <div class="project-image">
-			        <img src="./images/e-commerce-app.png" class="card-img-top" alt="E-commerce App">
+			        <img src="./images/e-commerce-app.png" class="card-img-top" alt="E-commerce App" loading="lazy">
 			      </div>
 			      <div class="card-body">
 			        <span class="project-type">MERN STACK</span>
-			        <h5 class="card-title">E-commerce App</h5>
+			        <h2 class="card-title">E-commerce App</h2>
 			        <p class="card-text">
 			          MERN E-Commerce Platform. The platfrom feature dynamic product catalog with
 			          filtering and sorting, real-time search, seamless cart updates,
@@ -314,11 +327,11 @@
 			  <div class="col-12 col-md-6 col-lg-4 mb-4">
 			    <div class="project-card">
 			      <div class="project-image">
-			        <img src="./images/airline-mockup.png" class="card-img-top"alt="Airline Booking System Mockup">
+			        <img src="./images/airline-mockup.png" class="card-img-top"alt="Airline Booking System Mockup" loading="lazy">
 			      </div>
 			      <div class="card-body">
 			        <span class="project-type">UI / UX</span>
-			        <h5 class="card-title">Airline Booking System Mockup</h5>
+			        <h2 class="card-title">Airline Booking System Mockup</h2>
 			        <p class="card-text">
 			          Side Project: Conceptual design showcasing an intuitive UI for flight search,
 			          seat selection, and booking confirmation, focusing on user experience and workflow efficiency.
@@ -330,11 +343,11 @@
 			  <div class="col-12 col-md-6 col-lg-4 mb-4">
 			    <div class="project-card">
 			      <div class="project-image">
-			        <img src="./images/airline-prototype.png" class="card-img-top" alt="Airline Booking System Prototype">
+			        <img src="./images/airline-prototype.png" class="card-img-top" alt="Airline Booking System Prototype" loading="lazy" >
 			      </div>
 			      <div class="card-body">
 			        <span class="project-type">PROTOTYPE</span>
-			        <h5 class="card-title">Airline Booking System Prototype</h5>
+			        <h2 class="card-title">Airline Booking System Prototype</h2>
 			        <p class="card-text">
 			        	Side Project: Interactive prototype simulating end-to-end airline booking functionalities, including flight search, reservation, payment processing, and real-time ticket management.
 			        </p>
@@ -349,11 +362,11 @@
 			  <div class="col-12 col-md-6 col-lg-4 mb-4">
 			    <div class="project-card">
 			      <div class="project-image">
-			        <img src="./images/capstone.png" class="card-img-top" alt="Short Course Capstone">
+			        <img src="./images/capstone.png" class="card-img-top" alt="Short Course Capstone" loading="lazy">
 			      </div>
 			      <div class="card-body">
 			        <span class="project-type">CAPSTONE</span>
-			        <h5 class="card-title">Short Course Capstone</h5>
+			        <h2 class="card-title">Short Course Capstone</h2>
 			        <p class="card-text">
 			          Placeholder for your short course capstone project.
 			        </p>
@@ -364,11 +377,11 @@
 			  <div class="col-12 col-md-6 col-lg-4 mb-4">
 			    <div class="project-card">
 			      <div class="project-image">
-			        <img src="./images/capstone2.png" class="card-img-top" alt="Short Course Capstone">
+			        <img src="./images/capstone2.png" class="card-img-top" alt="Short Course Capstone" loading="lazy">
 			      </div>
 			      <div class="card-body">
 			        <span class="project-type">CAPSTONE</span>
-			        <h5 class="card-title">Short Course Capstone</h5>
+			        <h2 class="card-title">Short Course Capstone</h2>
 			        <p class="card-text">
 			          Placeholder for your short course capstone project.
 			        </p>
@@ -379,11 +392,11 @@
 			  <div class="col-12 col-md-6 col-lg-4 mb-4">
 			    <div class="project-card">
 			      <div class="project-image">
-			        <img src="./images/capstone3.png" class="card-img-top" alt="Short Course Capstone">
+			        <img src="./images/capstone3.png" class="card-img-top" alt="Short Course Capstone" loading="lazy">
 			      </div>
 			      <div class="card-body">
 			        <span class="project-type">CAPSTONE</span>
-			        <h5 class="card-title">Short Course Capstone</h5>
+			        <h2 class="card-title">Short Course Capstone</h2>
 			        <p class="card-text">
 			          Placeholder for your short course capstone project.
 			        </p>
@@ -405,7 +418,7 @@
 										<strong>August 2020 – July 2024</strong>
 									</td>
 									<td class="col-7">
-										<h5 class="mb-1">Information Technology Student</h5>
+										<h2 class="mb-1">Information Technology Student</h2>
 										<p class="mb-2"><strong>[Asia Pacific College]</strong></p>
 										<p class="mb-0">
 											Developed knowledge and practical skills in project management, database management, software development life cycle, and website development. Gained experience applying these concepts through academic projects and hands-on development activities.
@@ -417,7 +430,7 @@
 										<strong>[Nov 2023 – May 2024]</strong>
 									</td>
 									<td class="col-7">
-										<h5 class="mb-1">Worldpress Development Intern</h5>
+										<h2 class="mb-1">Worldpress Development Intern</h2>
 										<p class="mb-2"><strong>[Spiralytics, Inc.]</strong></p>
 										<p class="mb-0">
 											Gained hands-on experience in WordPress development, website content management, and Google Analytics. Worked in an Agile environment, collaborating with team members and following structured workflows to support website updates, testing, and project tasks.
@@ -485,11 +498,11 @@
 			  </div>
 			</div>
 			<!-- Contact Section End -->
-		</div>	
+		</main>	
 		<!-- Container End -->
 
 		<!-- Footer Start -->
-		<footer id="footer" class="mt-5">
+		<footer id="footer" class="mt-5"  aria-label="Footer Navigation">
 			<div class="container">
 				<div class="row align-items-start">
 					<!-- Name -->
@@ -502,7 +515,7 @@
 					</div>
 					<!-- Navigation -->
 					<div class="col-12 col-lg-4 text-center mb-4 mb-lg-0">
-						<h5>Navigation</h5>
+						<h2>Navigation</h2>
 						<div class="footer-links">
 							<a href="#landing">Home</a>
 							<a href="#about">About</a>
@@ -514,7 +527,7 @@
 					</div>
 					<!-- Social Links -->
 					<div class="col-12 col-lg-4 text-center text-lg-end">
-						<h5>Connect With Me</h5>
+						<h2>Connect With Me</h2>
 						<div class="d-flex flex-column align-items-center align-items-lg-end gap-2">
 							<a href="https://www.linkedin.com/in/dm-alfaras/" target="_blank" class="footer-social">LinkedIn</a>
 							<a href="https://github.com/dmalfaras10" target="_blank" class="footer-social">GitHub</a>
